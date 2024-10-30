@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WifiWars numbers game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="generate_prompt();">
+    <div class="keypad">
+        <div class="row top-row">
+            <p class="current"></p>
+        </div>
+        <div class="row">
+            <div class="button b1-1"><p></p></div>
+            <div class="button b1-2"><p></p></div>
+            <div class="button b1-3"><p></p></div>
+        </div>
+        <div class="row">
+            <div class="button b2-1"><p></p></div>
+            <div class="button b2-2"><p></p></div>
+            <div class="button b2-3"><p></p></div>
+        </div>
+        <div class="row">
+            <div class="button b3-1"><p></p></div>
+            <div class="button b3-2"><p></p></div>
+            <div class="button b3-3"><p></p></div>
+        </div>
+        <div class="row">
+            <div class="button b4-1"><p></p></div>
+            <div class="button b4-2">C</div>
+        </div>
+    </div>
+    <div class="question hidden"></div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
