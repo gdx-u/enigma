@@ -20,11 +20,11 @@ function r(l) {
 async function generate_prompt() {
 
     if (Math.random() > 0.4) l++;
-    let reverse = Math.random() > 0.3;
-    let shuffled = Math.random() < 0.2;
+    let reverse = Math.random() > 0.75;
+    let shuffled = Math.random() < 0.6;
     let hidden = false;
     if (!shuffled) {
-        hidden = Math.random() < 0.3;
+        hidden = Math.random() < 0.7;
     } 
 
     if (shuffled) shuffle()
